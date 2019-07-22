@@ -5,3 +5,5 @@ master 69e702d] 添加到远程
  create mode 100644 runoob-test.txt
 
 $ git push origin master    # 推送到 Github
+
+git pull origin master --allow-unrelated-histories #加上后面这个选项允许不相关历史提交
