@@ -11,3 +11,6 @@ git pull origin master --allow-unrelated-histories #加上后面这个选项允�
 创建项目的SSH Key
 
 ssh-keygen -t rsa -C "778998010@qq.com"
+
+设置当前分支为默认分支
+git config --global push.default "current"
